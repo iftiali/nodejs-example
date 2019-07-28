@@ -19,6 +19,7 @@ pipeline {
     stage('End') {
       steps {
         powershell 'npm install'
+        kjlsdf;jasldjfie lkjoijo rtlwei
         echo 'End Pipeline'
         
       }
