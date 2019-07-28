@@ -18,7 +18,9 @@ pipeline {
     }
     stage('End') {
       steps {
+        powershell 'npm install'
         echo 'End Pipeline'
+        
       }
     }
   }
